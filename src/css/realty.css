@@ -1,0 +1,9 @@
+header nav > .menu:hover + ul {
+    display: flex;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #73A588 ;
+}

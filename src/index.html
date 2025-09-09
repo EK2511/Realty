@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+    <html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Realty</title>
+        <!-- link normalize -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- icon file -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- tailwind file -->
+        <link rel="stylesheet" href="output.css">
+        <!-- css file -->
+        <link rel="stylesheet" href="css/realty.css">
+    </head>
+    <body class="">
+        <div class="content absolute w-full left-0 z-50">
+            <header class="container mx-auto px-[15px] flex justify-between border-b-1 border-white/50 min-h-20 items-center relative max-lg:flex-wrap md:max-lg:justify-center">
+                <img src="imgs/Logo.svg" class="w-[150px]" alt="logo">
+                <nav>
+                    <i class="fa-solid fa-bars hidden! menu text-white max-md:block! peer cursor-pointer"></i>
+                    <ul class="flex items-center md:gap-6 md:max-lg:gap-3 max-lg:mb-1.5 max-lg:mr-0 mr-6 capitalize text-sm font-normal z-[1000] text-white font-sora max-md:absolute max-md:left-0 max-md:top-full max-md:flex-col max-md:w-full max-md:hidden max-md:bg-black/50 peer-hover:flex">
+                        <li class=" p-2.5 max-md:w-full max-md:border-b-1 max-md:border-white/40 max-md:mr-0 max-md:p-4">
+                            <a href="#home" class="w-fit hover:text-lightgreen transition-all duration-[0.4s]">home</a>
+                        </li>
+                        <li class=" p-2.5 max-md:w-full max-md:border-b-1 max-md:border-white/40 max-md:mr-0 max-md:p-4">
+                            <a href="#about" class="w-fit hover:text-lightgreen transition-all duration-[0.4s]">about us</a>
+                        </li>
+                        <li class=" p-2.5 max-md:w-full max-md:border-b-1 max-md:border-white/40 max-md:mr-0 max-md:p-4">
+                            <a href="#services" class="w-fit mr-1 hover:text-lightgreen transition-all duration-[0.4s] peer">services</a>
+                            <i class="fa-solid fa-angle-down text-[11px] max-md:hidden! peer-hover:text-lightgreen transition-all duration-[0.4s]"></i>
+                        </li>
+                        <li class=" p-2.5 max-md:w-full max-md:border-b-1 max-md:border-white/40 max-md:mr-0 max-md:p-4">
+                            <a href="#information" class="w-fit  hover:text-lightgreen transition-all duration-[0.4s]">information</a>
+                        </li>
+                        <li class=" p-2.5 max-md:w-full max-md:border-b-1 max-md:border-white/40 max-md:mr-0 max-md:p-4">
+                            <a href="#blogs" class="w-fit  hover:text-lightgreen transition-all duration-[0.4s]">blogs</a>
+                        </li>
+                        <li class=" p-2.5 max-md:w-full max-md:border-b-1 max-md:border-white/40 max-md:mr-0 max-md:p-4">
+                            <a href="#sell" class="w-fit  hover:text-lightgreen transition-all duration-[0.4s]">sell</a>
+                        </li>
+                        <li class=" p-2.5 max-md:w-full max-md:border-b-1 max-md:border-white/40 max-md:mr-0 max-md:p-4">
+                            <a href="#contact" class="w-fit  hover:text-lightgreen transition-all duration-[0.4s]">contact us</a>
+                        </li>
+                        <li class=" pl-5 min-md:border-l-1 min-md:border-white max-md:w-full max-md:mr-0 max-md:p-4">
+                            <div class="join group">
+                                <a href="#join" class="w-fit group-hover:text-lightgreen transition-all duration-[0.4s]">
+                                    <i class="fa-regular fa-user text-[12px] mr-1 group-hover:text-lightgreen transition-all duration-[0.4s]"></i>
+                                    join us
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="landing h-screen bg-[url(imgs/landing.webp)] bg-cover relative before:bg-black/20 before:absolute before:w-full before:h-full before:z-40" id="home">
+            <div class="content absolute top-1/2 left-1/2 -translate-1/2 z-40 w-full max-w-3xl p-2.5">
+                <div class="text text-center text-white">
+                    <p class="uppercase font-sora text-[12px] tracking-[2px]">welcome to one of the best real estate agency</p>
+                    <h1 class="capitalize text-[55px]! font-sora font-semibold mt-3.5! mb-4! tracking-[2px] max-md:text-[35px]! max-sm:text-[30px]! max-sm:mb-5!">discover and own your <span class="text-lightgreen">perfect home today!</span></h1>
+                </div>
+                <div class="bar bg-white w-fit mx-auto rounded-full p-2 font-sora font-light text-[12px] max-md:rounded-2xl">
+                    <ul class="flex gap-3.5 items-center max-md:flex-wrap max-md:justify-center">
+                        <li class="flex justify-between items-center min-w-43 px-5 h-fit max-md:p-2.5">
+                            <p class="capitalize">buy house</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="flex justify-between items-center min-w-43 px-5 h-fit min-md:border-l-1 min-md:border-black/30 max-md:p-2.5">
+                            <p class="capitalize">category</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="flex justify-between items-center min-w-43 px-5 h-fit min-md:border-l-1 min-md:border-black/30 max-md:p-2.5">
+                            <p class="capitalize">location</p>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </li>
+                        <li class="flex min-w-43 bg-lightgreen text-darkgreen py-3 cursor-pointer px-5 rounded-full justify-center items-center">
+                            <i class="fa-solid fa-magnifying-glass mr-1"></i>
+                            <p class="capitalize">search</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="latest flex text-[9px] gap-2.5 mt-4.5 justify-center text-white items-center font-sora font-semibold max-md:flex-wrap">
+                    <p>latest listings:</p>
+                    <ul class="flex gap-2.5 max-md:flex-wrap max-md:justify-center">
+                        <li class="w-fit bg-white/25 px-2 py-1.5 rounded-full">Modern Family Home</li>
+                        <li class="w-fit bg-white/25 px-2 py-1.5 rounded-full">Chic Downtown Condo</li>
+                        <li class="w-fit bg-white/25 px-2 py-1.5 rounded-full">Cottage Near the Mountains</li>
+                        <li class="w-fit bg-white/25 px-2 py-1.5 rounded-full">Historic Victorian Home</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="range container mx-auto px-[50px] py-25 max-lg:px-[15px]">
+            <div class="text relative flex justify-between items-center flex-wrap font-sora capitalize">
+                <img src="imgs/pattern.svg" class="absolute -z-10 max-w-[450px] w-full -left-35" alt="">
+                <h2 class="text-4xl/tight text-lightblack max-w-sm mb-3 max-sm:text-3xl/tight">our range of highly <span class="text-midgreen">desired real estate</span></h2>
+                <button class=" flex items-center  w-fit py-3 px-4.5 cursor-pointer border-1 border-lightblack/50 rounded-full hover:bg-lightblack group transition-all duration-[0.4s]">
+                    <p class="font-sora capitalize text-[12px] mr-1.5 text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]">more properties</p>
+                    <i class="fa-solid fa-arrow-right text-[12px] text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]"></i>
+                </button>
+            </div>
+            <div class="content mt-10 grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-y-7 gap-x-5 font-sora capitalize max-md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
+                <div class="box relative before:absolute before:content-['for_rent'] before:text-white before:text-[11px] before:w-fit before:px-3 before:py-1.5 before:bg-black/15 before:border-1 before:border-white before:rounded-full before:left-4 before:top-3">
+                    <img src="imgs/range1.webp" class="w-full rounded-[10px]" alt="">
+                    <div class="bar flex gap-2.5 text-[12px] items-center mt-[15px]">
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bed mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">4 beds</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bath mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">2 bath</p>
+                        </div>
+                        <div class="mention flex items-center"> 
+                            <i class="fa-solid fa-table-cells-large mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">1203 Sqft.</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl mt-2.5">modern family home in subur</h3>
+                    <p class="text-[13px] mt-1.5 text-[#5C5C5C]">456 maple street, denver, CO 80202</p>
+                    <p class="text-midgreen text-xl mt-3.5">5,000$</p>
+                </div>
+                <div class="box relative before:absolute before:content-['for_rent'] before:text-white before:text-[11px] before:w-fit before:px-3 before:py-1.5 before:bg-black/15 before:border-1 before:border-white before:rounded-full before:left-4 before:top-3">
+                    <img src="imgs/range2.webp" class="w-full rounded-[10px]" alt="">
+                    <div class="bar flex gap-2.5 text-[12px] items-center mt-[15px]">
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bed mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">4 beds</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bath mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">2 bath</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-table-cells-large mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">1203 Sqft.</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl mt-2.5">Luxury Estate with Private pool</h3>
+                    <p class="text-[13px] mt-1.5 text-[#5C5C5C]">789 Pine Avenue, Denver, CO 80203</p>
+                    <p class="text-midgreen text-xl mt-3.5">8,800$</p>
+                </div>
+                <div class="box relative before:absolute before:content-['for_rent'] before:text-white before:text-[11px] before:w-fit before:px-3 before:py-1.5 before:bg-black/15 before:border-1 before:border-white before:rounded-full before:left-4 before:top-3">
+                    <img src="imgs/range3.webp" class="w-full rounded-[10px]" alt="">
+                    <div class="bar flex gap-2.5 text-[12px] items-center mt-[15px]">
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bed mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">4 beds</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bath mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">2 bath</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-table-cells-large mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">1203 Sqft.</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl mt-2.5">Cozy Cottage Near</h3>
+                    <p class="text-[13px] mt-1.5 text-[#5C5C5C]">123 Oak Lane, Boulder, CO 80302</p>
+                    <p class="text-midgreen text-xl mt-3.5">6,000$</p>
+                </div>
+                <div class="box relative before:absolute before:content-['for_rent'] before:text-white before:text-[11px] before:w-fit before:px-3 before:py-1.5 before:bg-black/15 before:border-1 before:border-white before:rounded-full before:left-4 before:top-3">
+                    <img src="imgs/range4.webp" class="w-full rounded-[10px]" alt="">
+                    <div class="bar flex gap-2.5 text-[12px] items-center mt-[15px]">
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bed mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">4 beds</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bath mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">2 bath</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-table-cells-large mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">1203 Sqft.</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl mt-2.5">Chic Downtown City Views</h3>
+                    <p class="text-[13px] mt-1.5 text-[#5C5C5C]">101 Aspen Drive, Aspen, CO 81611</p>
+                    <p class="text-midgreen text-xl mt-3.5">3,000$</p>
+                </div>
+                <div class="box relative before:absolute before:content-['for_rent'] before:text-white before:text-[11px] before:w-fit before:px-3 before:py-1.5 before:bg-black/15 before:border-1 before:border-white before:rounded-full before:left-4 before:top-3">
+                    <img src="imgs/range5.webp" class="w-full rounded-[10px]" alt="">
+                    <div class="bar flex gap-2.5 text-[12px] items-center mt-[15px]">
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bed mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">4 beds</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bath mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">2 bath</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-table-cells-large mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">1203 Sqft.</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl mt-2.5">Historic Victorian Home</h3>
+                    <p class="text-[13px] mt-1.5 text-[#5C5C5C]">789 Elm Street, Fort Collins, CO 80521</p>
+                    <p class="text-midgreen text-xl mt-3.5">75,000$</p>
+                </div>
+                <div class="box relative before:absolute before:content-['for_rent'] before:text-white before:text-[11px] before:w-fit before:px-3 before:py-1.5 before:bg-black/15 before:border-1 before:border-white before:rounded-full before:left-4 before:top-3">
+                    <img src="imgs/range6.webp" class="w-full rounded-[10px]" alt="">
+                    <div class="bar flex gap-2.5 text-[12px] items-center mt-[15px]">
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bed mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">4 beds</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-bath mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">2 bath</p>
+                        </div>
+                        <div class="mention flex items-center">
+                            <i class="fa-solid fa-table-cells-large mr-1 text-midgreen"></i>
+                            <p class="text-[#5C5C5C]">1203 Sqft.</p>
+                        </div>
+                    </div>
+                    <h3 class="text-xl mt-2.5">Contemporary Townhouse</h3>
+                    <p class="text-[13px] mt-1.5 text-[#5C5C5C]">345 Cedar Road, Colorado Springs, CO 80907</p>
+                    <p class="text-midgreen text-xl mt-3.5">24,000$</p>
+                </div>
+            </div>
+        </section>
+        <section class="about container mx-auto px-[50px] py-25 max-lg:px-[15px] bg-[#F1F8F1]" id="about">
+            <div class="text relative flex justify-between items-center flex-wrap font-sora capitalize">
+                <div class="box mb-4">
+                    <h2 class="text-4xl/tight text-lightblack max-w-sm mb-2 max-sm:text-3xl/tight">Why to <span class="text-midgreen">choose us?</span></h2>
+                    <p class="text-[#5C5C5C] text-[12px] max-w-[500px] leading-5">Of the profit generated through these trips will be used to help  locals, which makes us different than most trekking agencies.</p>
+                </div>
+                <button class=" flex items-center  w-fit py-3 px-4.5 cursor-pointer border-1 border-lightblack/50 rounded-full hover:bg-lightblack group transition-all duration-[0.4s]">
+                    <p class="font-sora capitalize text-[12px] mr-1.5 text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]">more properties</p>
+                    <i class="fa-solid fa-arrow-right text-[12px] text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]"></i>
+                </button>
+            </div>
+            <div class="content mt-15 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] max-xl:gap-3 font-sora">
+                <div class="box p-10 border-y-1 border-black/20 mt-2.5">
+                    <div class="icon w-12 h-12 mb-3 rounded-full flex justify-center items-center bg-darkgreen text-white opacity-80">
+                        <i class="fa-solid fa-magnifying-glass "></i>
+                    </div>
+                    <h3 class="capitalize text-xl mb-2">easy to find</h3>
+                    <p class="text-[12px] text-[#5C5C5C] max-w-[210px] leading-[18px]">Discover your perfect home effortlessly with our user-friendly search tools and extensive property listings.</p>
+                </div>
+                <div class="box p-10 border-y-1 border-black/20 min-xl:border-l-1 mt-2.5">
+                    <div class="icon w-12 h-12 mb-3 rounded-full flex justify-center items-center bg-darkgreen text-white opacity-80">
+                        <i class="fa-solid fa-tag"></i>
+                    </div>
+                    <h3 class="capitalize text-xl mb-2">affordable prices</h3>
+                    <p class="text-[12px] text-[#5C5C5C] max-w-[200px] leading-[18px]">Explore a wide range of properties that fit your budget without compromising on quality or location.</p>
+                </div>
+                <div class="box p-10 border-y-1 border-black/20 min-xl:border-l-1 mt-2.5">
+                    <div class="icon w-12 h-12 mb-3 rounded-full flex justify-center items-center bg-darkgreen text-white opacity-80">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3 class="capitalize text-xl mb-2">quickly process</h3>
+                    <p class="text-[12px] text-[#5C5C5C] max-w-[200px] leading-[18px]">Experience a seamless and efficient home buying or selling process with our dedicated team guiding you every step of the way.</p>
+                </div>
+                <div class="box p-10 border-y-1 border-black/20 min-xl:border-l-1 mt-2.5">
+                    <div class="icon w-12 h-12 mb-3 rounded-full flex justify-center items-center bg-darkgreen text-white opacity-80">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <h3 class="capitalize text-xl mb-2">happy custommers</h3>
+                    <p class="text-[12px] text-[#5C5C5C] max-w-[210px] leading-[18px]">Join our community of satisfied clients who have found their dream homes and enjoyed exceptional service with us.</p>
+                </div>
+            </div>
+        </section>
+        <section class="quote container mx-auto px-[50px] py-25 max-lg:px-[15px] font-sora text-center">
+            <i class="fa-solid fa-quote-left text-7xl text-midgreen mb-2.5"></i>
+            <h2 class="text-3xl max-w-2xl font-light mx-auto mb-7 max-md:text-2xl">As first-time homebuyers, we were nervous about the process, but the agents at Realty provided us with all the information and support we needed.</h2>
+            <ul class="flex gap-5 justify-center mb-4">
+                <li>
+                    <div class="img w-11 h-11 rounded-full overflow-hidden">
+                        <img src="imgs/blog2.webp" class="w-full" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="img w-13 h-13 rounded-full overflow-hidden relative -top-2">
+                        <img src="imgs/service1.webp" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="img w-11 h-11 rounded-full overflow-hidden">
+                        <img src="imgs/blog3.webp" alt="">
+                    </div>
+                </li>
+            </ul>
+            <p class="text-[12px]"><span class="text-[16px] mr-1 inline-block relative top-[1px]">Emily Smith</span>Sydney, NSW 2000 Australia</p>
+        </section>
+        <section class="services container mx-auto px-[50px] py-25 max-lg:px-[15px] font-sora" id="services">
+            <div class="content flex justify-center gap-20 flex-wrap max-xl:gap-0">
+                <div class="first-row self-center">
+                    <div class="text relative font-sora capitalize">
+                        <div class="box mb-4">
+                            <h2 class="text-4xl/tight text-lightblack max-w-sm mb-2 max-sm:text-3xl/tight">Check <span class="text-midgreen">our services</span></h2>
+                            <p class="text-[#5C5C5C] text-[12px] max-w-[500px] leading-5">Explore our comprehensive range of real estate services designed to meet all your property needs with expertise and care.</p>
+                        </div>
+                        <button class=" flex items-center  w-fit py-3 px-4.5 cursor-pointer border-1 border-lightblack/50 rounded-full hover:bg-lightblack group transition-all duration-[0.4s]">
+                            <p class="font-sora capitalize text-[12px] mr-1.5 text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]">learn more about us</p>
+                            <i class="fa-solid fa-arrow-right text-[12px] text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]"></i>
+                        </button>
+                    </div>
+                    <div class="img mt-20 before:max-w-[600px] before:rounded-[20px] relative before:absolute before:bg-black/20 before:w-full before:h-full">
+                        <img src="imgs/service1.webp" class="rounded-[20px] max-w-[600px] w-full" alt="">
+                        <div class="text w-[370px] max-md:w-[280px] absolute left-1/2 top-3/5 -translate-1/2 text-white">
+                            <div class="head flex items-center justify-center">
+                                <div class="icon w-9 h-9 min-w-9 rounded-full bg-darkgreen flex items-center justify-center">
+                                    <i class="fa-solid fa-shoe-prints text-[12px]"></i>
+                                </div>
+                                <h3 class="text-2xl ml-3 max-md:text-xl">Expert Advice and Guidance</h3>
+                            </div>
+                            <p class="text-sm mt-4 max-md:text-[12px] max-md:mt-2">Navigating the real estate market can be complex and overwhelming. Our team of experienced real estate consultants is here to provide expert advice and guidance every step of the way. Whether you're buying, selling, or investing, we offer personalized consultations to help you make informed decisions.</p>
+                            <div class="read flex text-sm items-center mt-4 capitalize max-md:mt-2">
+                                <p class="mr-2 font-semibold max-md:text-[12px]">read more</p>
+                                <i class="fa-solid fa-angle-right text-[12px]"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-row">
+                    <div class="img mt-20 before:max-w-[600px] before:rounded-[20px] relative before:absolute before:bg-black/20 before:w-full before:h-full">
+                        <img src="imgs/service2.webp" class="rounded-[20px] max-w-[600px] w-full" alt="">
+                        <div class="text w-[370px] max-md:w-[280px] absolute left-1/2 top-3/5 -translate-1/2 text-white">
+                            <div class="head flex items-center justify-center">
+                                <div class="icon w-9 h-9 min-w-9 rounded-full bg-darkgreen flex items-center justify-center">
+                                    <i class="fa-solid fa-heart text-[12px]"></i>
+                                </div>
+                                <h3 class="text-2xl ml-3 max-md:text-xl">Discover Your Dream Home</h3>
+                            </div>
+                            <p class="text-sm mt-4 max-md:text-[12px] max-md:mt-2">Our extensive property listings offer a wide variety of homes to suit every taste and budget. Whether you're looking for a cozy apartment in the city, a spacious family home in the suburbs, or a luxury estate, our listings provide detailed descriptions, high-quality images, and virtual tours to help you make an informed decision.</p>
+                            <div class="read flex text-sm items-center mt-4 capitalize max-md:mt-2">
+                                <p class="mr-2 font-semibold max-md:text-[12px]">Get Started</p>
+                                <i class="fa-solid fa-angle-right text-[12px]"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img mt-20 before:max-w-[600px] before:rounded-[20px] relative before:absolute before:bg-black/20 before:w-full before:h-full">
+                        <img src="imgs/service3.webp" class="rounded-[20px] max-w-[600px] w-full" alt="">
+                        <div class="text w-[350px] max-md:w-[280px] absolute left-1/2 top-3/5 -translate-1/2 text-white">
+                            <div class="head flex items-center justify-start">
+                                <div class="icon w-9 h-9 min-w-9 rounded-full bg-darkgreen flex items-center justify-center">
+                                    <i class="fa-solid fa-hand-holding-heart text-[12px]"></i>
+                                </div>
+                                <h3 class="text-2xl ml-3 max-md:text-xl max-w-[250px]">Comprehensive Management Services</h3>
+                            </div>
+                            <p class="text-sm mt-4 max-md:text-[12px] max-md:mt-2">Navigating the real estate market can be complex and overwhelming. Our team of experienced real estate consultants is here to provide expert advice and guidance every step of the way. Whether you're buying, selling, or investing, we offer personalized consultations to help you make informed decisions.</p>
+                            <div class="read flex text-sm items-center mt-4 capitalize max-md:mt-2">
+                                <p class="mr-2 font-semibold max-md:text-[12px]">read more</p>
+                                <i class="fa-solid fa-angle-right text-[12px]"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sign container mx-auto px-[50px] py-25 max-lg:px-[15px] font-sora flex gap-15 justify-center flex-wrap" id="join">
+            <div class="img flex gap-5 max-md:flex-wrap max-md:justify-center">
+                <img src="imgs/sign1.webp" class="w-[300px]" alt="">
+                <img src="imgs/sign2.webp" class="w-[300px]" alt="" >
+            </div>
+            <div class="text relative font-sora capitalize self-center ">
+                <div class="box mb-7">
+                    <h2 class="text-4xl/tight text-lightblack max-w-sm mb-2 max-sm:text-3xl/tight">Sign up to <span class="text-midgreen">our newsletter</span></h2>
+                    <p class="text-[#5C5C5C] text-[12px] leading-5 max-w-[470px] w-full">Mauris orci donec blandit maecenas. Orci lorem purus porttitor massa consectetur. Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo. Nibh laoreet volutpat quis velit. Blandit aliquam donec sed morbi congue eget lorem viverra porta id lobortis.</p>
+                </div>
+                <form action="" class="relative max-w-[400px]">
+                    <input class="shadow-sm w-full focus:outline-none caret-darkgreen max-w-[400px] px-3 py-4  rounded-full placeholder:text-sm placeholder:capitalize max-sm:placeholder:text-[12px]" type="email" placeholder="write your email address">
+                    <input class="absolute top-1/2 cursor-pointer -translate-1/2 text-[12px]! capitalize -right-13 max-sm:-right-9 px-7 max-sm:px-4 py-3 bg-lightgreen text-darkgreen rounded-full" type="submit" value="subscribe">
+                </form>
+            </div>
+        </section>
+        <section class="info container mx-auto px-[50px] py-25 max-lg:px-[15px] font-sora bg-[#F1F8F1]" id="information">
+            <h2 class="text-4xl/tight text-lightblack max-w-md mb-2 max-sm:text-3xl/tight text-center mx-auto">Information you might <span class="text-midgreen">find useful</span></h2>
+            <div class="content mt-20 grid grid-cols-[repeat(auto-fill,minmax(500px,1fr))] gap-5 max-sm:grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
+                <div class="box flex items-center justify-between bg-white p-8 rounded-2xl">
+                    <p class="text-lightblack text-xl max-w-[350px] capitalize max-sm:text-sm ">How can I schedule a property viewing?</p>
+                    <div class="icon ml-3 min-w-10 w-10 h-10 rounded-xl bg-[#F1F8F1] cursor-pointer flex items-center justify-center hover:scale-125 transition-all duration-[0.4s]">
+                        <i class="fa-solid fa-plus text-midgreen"></i>
+                    </div>
+                </div>
+                <div class="box flex items-center justify-between bg-white p-8 rounded-2xl">
+                    <p class="text-lightblack text-xl max-w-[350px] capitalize max-sm:text-sm">What is the process of buying a home?</p>
+                    <div class="icon ml-3 min-w-10 w-10 h-10 rounded-xl bg-[#F1F8F1] cursor-pointer flex items-center justify-center hover:scale-125 transition-all duration-[0.4s]">
+                        <i class="fa-solid fa-plus text-midgreen"></i>
+                    </div>
+                </div>
+                <div class="box flex items-center justify-between bg-white p-8 rounded-2xl">
+                    <p class="text-lightblack text-xl max-w-[350px] capitalize max-sm:text-sm">How do you determine the value of a property?</p>
+                    <div class="icon ml-3 min-w-10 w-10 h-10 rounded-xl bg-[#F1F8F1] cursor-pointer flex items-center justify-center hover:scale-125 transition-all duration-[0.4s]">
+                        <i class="fa-solid fa-plus text-midgreen"></i>
+                    </div>
+                </div>
+                <div class="box flex items-center justify-between bg-white p-8 rounded-2xl">
+                    <p class="text-lightblack text-xl max-w-[350px] capitalize max-sm:text-sm">What should I do to prepare my home for sale?</p>
+                    <div class="icon ml-3 min-w-10 w-10 h-10 rounded-xl bg-[#F1F8F1] cursor-pointer flex items-center justify-center hover:scale-125 transition-all duration-[0.4s]">
+                        <i class="fa-solid fa-plus text-midgreen"></i>
+                    </div>
+                </div>
+                <div class="box flex items-center justify-between bg-white p-8 rounded-2xl">
+                    <p class="text-lightblack text-xl max-w-[350px] capitalize max-sm:text-sm">Do you offer rental properties?</p>
+                    <div class="icon ml-3 min-w-10 w-10 h-10 rounded-xl bg-[#F1F8F1] cursor-pointer flex items-center justify-center hover:scale-125 transition-all duration-[0.4s]">
+                        <i class="fa-solid fa-plus text-midgreen"></i>
+                    </div>
+                </div>
+                <div class="box flex items-center justify-between bg-white p-8 rounded-2xl">
+                    <p class="text-lightblack text-xl max-w-[350px] capitalize max-sm:text-sm">ow do you screen tenants for rental properties?</p>
+                    <div class="icon ml-3 min-w-10 w-10 h-10 rounded-xl bg-[#F1F8F1] cursor-pointer flex items-center justify-center hover:scale-125 transition-all duration-[0.4s]">
+                        <i class="fa-solid fa-plus text-midgreen"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog container mx-auto px-[50px] py-25 max-lg:px-[15px] font-sora" id="blogs">
+            <div class="text relative flex justify-between items-center flex-wrap font-sora capitalize">
+                <h2 class="text-4xl/tight text-lightblack max-w-sm mb-3 max-sm:text-3xl/tight">Discover <span class="text-midgreen">Our Blogs</span></h2>
+                <button class=" flex items-center  w-fit py-3 px-4.5 cursor-pointer border-1 border-lightblack/50 rounded-full hover:bg-lightblack group transition-all duration-[0.4s]">
+                    <p class="font-sora capitalize text-[12px] mr-1.5 text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]">Read more blogs</p>
+                    <i class="fa-solid fa-arrow-right text-[12px] text-lightblack group-hover:text-lightgreen transition-all duration-[0.4s]"></i>
+                </button>
+            </div>
+            <div class="content mt-9 flex justify-center flex-wrap">
+                <div class="first-col min-xl:pr-18  min-xl:mt-16 min-xl:border-r-1 min-xl:border-lightblack/40">
+                    <img src="imgs/blog1.webp" class="max-w-[600px] w-full rounded-xl" alt="">
+                    <ul class="flex gap-3.5 text-[12px] capitalize mt-3">
+                        <li class=" text-midgreen  ">real estate</li>
+                        <li class="pl-2.5 border-l-1 border-black">june 3, 2024</li>
+                    </ul>
+                    <h3 class="text-lg mt-3 max-sm:text-base">The Ultimate Guide to Selling Your Home Quickly</h3>
+                    <p class="text-[#5C5C5C] text-[12px] max-w-[450px] mt-2 leading-4">Discover essential tips and strategies for a swift and profitable home sale in our comprehensive guide. From preparing your home and setting the right price to effective marketing.</p>
+                </div>
+                <div class="second-col min-xl:ml-18">
+                    <div class="box flex gap-4 py-16 max-sm:flex-wrap ">
+                        <img src="imgs/blog2.webp" class="max-w-[120px] w-full rounded-xl" alt="">
+                        <div class="text">
+                            <ul class="flex gap-3.5 text-[12px] capitalize mt-1">
+                                <li class=" text-midgreen  ">tips & tricks</li>
+                                <li class="pl-2.5 border-l-1 border-black">june 3, 2024</li>
+                            </ul>
+                            <h3 class="text-lg mt-1 max-w-[350px] max-sm:text-base">How to Stage Your Home for a Successful Sale</h3>
+                            <p class="text-[#5C5C5C] text-[12px] max-w-[300px] mt-1 leading-4">Learn how to make your home irresistible to buyers with our expert staging tips. From decluttering and furniture placement.</p>
+                        </div>
+                    </div>
+                    <div class="box flex gap-4  py-16 border-t-1 border-lightblack/40 max-sm:flex-wrap max-sm:pb-0">
+                        <img src="imgs/blog3.webp" class="max-w-[120px] w-full rounded-xl" alt="">
+                        <div class="text">
+                            <ul class="flex gap-3.5 text-[12px] capitalize mt-1">
+                                <li class=" text-midgreen  ">information</li>
+                                <li class="pl-2.5 border-l-1 border-black">june 3, 2024</li>
+                            </ul>
+                            <h3 class="text-lg mt-1 max-w-[350px] max-sm:text-base">Investing in Real Estate: A Beginner's Guide</h3>
+                            <p class="text-[#5C5C5C] text-[12px]  mt-1 leading-4 max-w-[300px]">Start your real estate investment journey with confidence using our beginner's guide. Explore key concepts, investment strategies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="marge-simple mx-20 max-md:mx-0">
+            <section class="simple relative container mx-auto px-[50px] py-25 max-lg:px-[15px] font-sora bg-midgreen overflow-hidden min-md:rounded-4xl" id="contact">
+                <i class="fa-regular fa-house absolute top-4/6 -translate-y-1/2 right-0 max-sm:-right-5 max-sm:top-11/12  text-white/30 text-[270px] max-sm:text-[110px] z-10" ></i>
+                <div class="text text-white z-50">
+                    <h2 class="text-4xl mb-3 capitalize max-sm:text-xl">Let's simply begin with realty</h2>
+                    <p class="capitalize text-sm">Blandit aliquam donec sed morbi congue eget lorem viverra porta id lobortis.</p>
+                    <form action="" class="flex gap-3 mt-5 max-sm:flex-wrap">
+                        <button class=" flex items-center  w-fit py-3 px-4.5 cursor-pointer bg-lightgreen rounded-full hover:bg-lightblack group transition-all duration-[0.4s]">
+                            <p class="font-sora capitalize text-[12px] mr-1.5 text-darkgreen group-hover:text-lightgreen transition-all duration-[0.4s]">get in touch</p>
+                            <i class="fa-solid fa-arrow-right text-[12px] text-darkgreen group-hover:text-lightgreen transition-all duration-[0.4s]"></i>
+                        </button>
+                        <button class=" flex items-center  w-fit py-3 px-4.5 cursor-pointer border-2 border-white hover:border-lightblack rounded-full  group transition-all duration-[0.4s]">
+                            <p class="font-sora capitalize text-[12px] mr-1.5 text-white group-hover:text-lightblack transition-all duration-[0.4s]">Get started</p>
+                            <i class="fa-solid fa-arrow-right text-[12px] text-white group-hover:text-lightblack transition-all duration-[0.4s]"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <section class="logo container mx-auto px-[50px] py-25 max-lg:px-[15px]">
+            <ul class="flex capitalize text-5xl gap-25 justify-center text-darkgreen flex-wrap">
+                <li class="font-pop opacity-50 hover:opacity-100 transition-all duration-[0.4s]">mellow</li>
+                <li class="font-sora opacity-50 hover:opacity-100 transition-all duration-[0.4s]">mystic</li>
+                <li class="font-inter opacity-50 hover:opacity-100 transition-all duration-[0.4s]">ultras</li>
+                <li class="font-lora opacity-50 hover:opacity-100 transition-all duration-[0.4s]">telly</li>
+                <li class="font-beba opacity-50 hover:opacity-100 transition-all duration-[0.4s]">bistro</li>
+            </ul>
+        </section>
+        <footer class="bg-[#1C1E1D] container mx-auto px-[50px] pt-25 pb-10 max-lg:px-[15px] font-sora text-white">
+            <div class="first-row flex justify-between items-center flex-wrap gap-5">
+                <div class="text flex items-center gap-55 flex-wrap max-lg:gap-5">
+                    <img src="imgs/Logo.svg" alt="">
+                    <p class="max-w-[350px] text-sm">Discover exceptional properties and expert real estate services tailored to your needs. Whether buying, selling, or investing, find your perfect.</p>
+                </div>
+                <ul class="flex gap-1.5">
+                    <li class="flex justify-center items-center min-w-9 min-h-9 rounded-full bg-white/35 cursor-pointer hover:text-lightgreen transition-all duration-[0.4s]"><i class="fa-brands fa-linkedin "></i></li>
+                    <li class="flex justify-center items-center min-w-9 min-h-9 rounded-full bg-white/35 cursor-pointer hover:text-lightgreen transition-all duration-[0.4s]"><i class="fa-brands fa-youtube "></i></li>
+                    <li class="flex justify-center items-center min-w-9 min-h-9 rounded-full bg-white/35 cursor-pointer hover:text-lightgreen transition-all duration-[0.4s]"><i class="fa-brands fa-facebook "></i></li>
+                    <li class="flex justify-center items-center min-w-9 min-h-9 rounded-full bg-white/35 cursor-pointer hover:text-lightgreen transition-all duration-[0.4s]"><i class="fa-brands fa-twitter "></i></li>
+                </ul>
+            </div>
+            <div class="second-row flex gap-10 mt-10 flex-wrap justify-center max-md:justify-start">
+                <div class="box w-[380px]">
+                    <h3 class="text-xl mb-3">Contact Us</h3>
+                    <ul class="border-t-1 border-white/35">
+                        <li class="text-[12px] mt-5 capitalize">123 Main Street Denver, CO 80202</li>
+                        <li class="text-[12px] mt-2 capitalize">+333-3-666999</li>
+                        <li class="text-[12px] mt-2 capitalize">+999-6-333396</li>
+                        <li class="text-[12px] mt-2 capitalize">info@yourinfo.com</li>
+                    </ul>
+                </div>
+                <div class="box w-[300px]">
+                    <h3 class="text-xl mb-3">Quick Links</h3>
+                    <ul class="border-t-1 border-white/35">
+                        <li class="text-[12px] mt-5 capitalize">home</li>
+                        <li class="text-[12px] mt-2 capitalize">about us</li>
+                        <li class="text-[12px] mt-2 capitalize" >blogs</li>
+                        <li class="text-[12px] mt-2 capitalize" >contact us</li>
+                        <li class="text-[12px] mt-2 capitalize" >privacy policy</li>
+                    </ul>
+                </div>
+                <div class="box w-[300px]">
+                    <h3 class="text-xl mb-3">Categories</h3>
+                    <ul class="border-t-1 border-white/35">
+                        <li class="text-[12px] mt-5 capitalize">Recently posted</li>
+                        <li class="text-[12px] mt-2 capitalize" >to sell</li>
+                        <li class="text-[12px] mt-2 capitalize" >to purchase</li>
+                        <li class="text-[12px] mt-2 capitalize" >for rental</li>
+                    </ul>
+                </div>
+                <div class="box w-[320px]">
+                    <h3 class="text-xl mb-3">Help</h3>
+                    <ul class="border-t-1 border-white/35">
+                        <li class="text-[12px] mt-3 capitalize">Privacy</li>
+                        <li class="text-[12px] mt-2 capitalize" >condition</li>
+                        <li class="text-[12px] mt-2 capitalize" >blog</li>
+                        <li class="text-[12px] mt-2 capitalize" >FAQs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="third-row flex mt-20 justify-between text-[12px] flex-wrap gap-2.5">
+                <p>&copy; 2025 TemplatesJungle. All Right reserved.</p>
+                <p>Designed by <span class="underline cursor-pointer">TemplatesJungle</span></p>
+            </div>
+        </footer>
+    </body>
+</html>
