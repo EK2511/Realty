@@ -1261,8 +1261,23 @@
   .bg-\[url\(\)\] {
     background-image: url();
   }
+  .bg-\[url\(\/img\/landing\.webp\)\] {
+    background-image: url(/img/landing.webp);
+  }
+  .bg-\[url\(\/img\/mountains\.jpg\)\] {
+    background-image: url(/img/mountains.jpg);
+  }
+  .bg-\[url\(C\:\\front_end_developer\\templates\\10\\imgs\)\] {
+    background-image: url(C:\front_end_developer\templates\10\imgs);
+  }
+  .bg-\[url\(C\:\\front_end_developer\\templates\\10\\imgs\\landing\.webp\)\] {
+    background-image: url(C:\front_end_developer\templates\10\imgs\landing.webp);
+  }
   .bg-\[url\(img\)\] {
     background-image: url(img);
+  }
+  .bg-\[url\(img\/landing\.webp\)\] {
+    background-image: url(img/landing.webp);
   }
   .bg-\[url\(imgs\)\] {
     background-image: url(imgs);
@@ -1275,6 +1290,24 @@
   }
   .bg-\[url\(imgs\/service1\.webp\)\] {
     background-image: url(imgs/service1.webp);
+  }
+  .bg-\[url\(simgs\/landing\.webp\)\] {
+    background-image: url(imgs/landing.webp);
+  }
+  .bg-\[url\(src\/imgs\/landing\.webp\)\] {
+    background-image: url(src/imgs/landing.webp);
+  }
+  .bg-\[url\(src\/imgs\\landing\.webp\)\] {
+    background-image: url(src/imgs\landing.webp);
+  }
+  .bg-\[url\(src\/imgslanding\.webp\)\] {
+    background-image: url(src/imgslanding.webp);
+  }
+  .bg-\[url\(src\\imgs\/landing\.webp\)\] {
+    background-image: url(src\imgs/landing.webp);
+  }
+  .bg-\[url\(src\\imgs\\landing\.webp\)\] {
+    background-image: url(src\imgs\landing.webp);
   }
   .from-black {
     --tw-gradient-from: var(--color-black);
