@@ -1,6 +1,6 @@
-header nav > .menu:hover + ul {
+/* header nav > .menu:hover + ul {
     display: flex;
-}
+} */
 ::-webkit-scrollbar {
     width: 15px;
 }
